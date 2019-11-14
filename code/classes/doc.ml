@@ -14,7 +14,7 @@ and 'a list_item =
     text: text_item list }
 
 (* part 1 *)
-open Core.Std
+open Core
 
 class ['a] folder = object(self)
   method doc acc = function

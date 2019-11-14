@@ -1,6 +1,6 @@
 (* part 1 *)
 (* file: dlist.ml *)
-open Core.Std
+open Core
 
 type 'a element =
   { value : 'a;

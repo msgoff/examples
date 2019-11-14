@@ -1,4 +1,4 @@
-open Core.Std
+open Core
 open Query_handler_core
 
 (* part 1 *)

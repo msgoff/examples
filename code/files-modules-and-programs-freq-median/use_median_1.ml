@@ -1,4 +1,4 @@
-open Core.Std
+open Core
 
 (* part 1 *)
 let print_median m =

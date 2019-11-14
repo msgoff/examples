@@ -1,4 +1,4 @@
-open Core.Std
+open Core
 
 module type Query_handler = sig
 

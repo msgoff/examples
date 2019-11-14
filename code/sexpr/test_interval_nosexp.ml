@@ -1,4 +1,4 @@
-open Core.Std
+open Core
 module Int_interval = Int_interval_nosexp
 
 let intervals =

@@ -1,4 +1,4 @@
-open Core.Std
+open Core
 
 type ('a, 'b) t = { mutable length: int;
                     buckets: ('a * 'b) list array;
