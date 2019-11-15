@@ -21,6 +21,13 @@ system keywords
 
 how to read code
 
+
 where can I find good resources to fill the knowlege gaps
+	https://github.com/ocaml-community/awesome-ocaml
+
+
+Jupyter Kernel
+	https://github.com/akabe/ocaml-jupyter
+
 
 
