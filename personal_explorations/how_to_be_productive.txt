@@ -1,0 +1,26 @@
+https://caml.inria.fr/pub/docs/manual-ocaml/
+	Good documentation of the language
+		Intermediate, Advanced
+
+https://stackoverflow.com/a/32738922
+	how to read and print a file
+
+how to write comments in code
+
+create a function
+
+print results
+
+casting between data types
+
+string, lists, array operations
+
+Stdin, Stdout
+
+system keywords
+
+how to read code
+
+where can I find good resources to fill the knowlege gaps
+
+
