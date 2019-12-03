@@ -1,0 +1,4 @@
+screen -d -m -S j1 /bin/bash j1.sh
+screen -d -m -S j2 /bin/bash j2.sh 
+screen -d -m -S j3 /bin/bash j3.sh
+screen -d -m -S j4 /bin/bash j4.sh

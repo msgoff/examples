@@ -4,7 +4,7 @@ open Printf
   
 
 let handle_line line =
-  printf "Your line: %s \n" line
+  printf "%s \n" line
 
 let () =
   let file_to_read = Sys.argv.(1) in

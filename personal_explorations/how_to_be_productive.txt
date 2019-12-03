@@ -1,9 +1,9 @@
-https://caml.inria.fr/pub/docs/manual-ocaml/
-	Good documentation of the language
-		Intermediate, Advanced
 
-https://stackoverflow.com/a/32738922
-	how to read and print a file
+Good documentation -> Intermediate, Advanced
+	https://caml.inria.fr/pub/docs/manual-ocaml/
+
+how to read and print a file
+	https://stackoverflow.com/a/32738922
 
 how to write comments in code
 
@@ -12,15 +12,55 @@ create a function
 print results
 
 casting between data types
+	http://caml.inria.fr/pub/docs/manual-ocaml/libref/Pervasives.html
 
 string, lists, array operations
 
-Stdin, Stdout
 
-system keywords
+system commands
+	https://ocaml.github.io/ocamlunix/ocamlunix.pdf
+
+
+keywords
+	#ocaml-4.09-refman.pdf
+	The identifiers below are reserved as keywords, and cannot be employed otherwise:
+	and         as          assert      asr         begin       class
+	constraint  do		done        down	to      else        end
+	exception   external    false       for         fun         function
+	functor     if          in          include     inherit     
+	initializerl	and        lazy        let         lor         lsl         lsrl
+	xor        match       method      mod         module      mutablenew         
+	nonrec      object      of          open        or	private     rec         sig         
+	struct      then        totrue        try         type        val         virtual     
+	when	while       with
+	
+	The following character sequences are also keywords:
+	!=    #     &     &&'(     )     *     +     ,     --.    ->    .     ..    .~    
+	:     ::    :=    :>    ;     ;;<     <-    =     >     >]    >}    ?     [     
+	[<    [>    [|]     _`{     {<    |     |]    ||    }     ~
+
+	Note that the following identifiers are keywords of the Camlp4 extensions and should be avoidedfor compatibility reasons.
+	parser    value    $     $$    $:    <:    <<    >>    ??
+
+
+
+grammar specifications
+
+
+lexer, parser
+
+
+exercises 
+
 
 how to read code
 
+
+set operations
+	member of, difference, intersection, union
+
+exercises
+	https://projecteuler.net
 
 where can I find good resources to fill the knowlege gaps
 	https://github.com/ocaml-community/awesome-ocaml
@@ -28,6 +68,4 @@ where can I find good resources to fill the knowlege gaps
 
 Jupyter Kernel
 	https://github.com/akabe/ocaml-jupyter
-
-
 
