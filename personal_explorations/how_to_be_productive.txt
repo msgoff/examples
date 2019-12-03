@@ -6,11 +6,17 @@ how to read and print a file
 	https://stackoverflow.com/a/32738922
 
 how to write comments in code
-
+	 (* I'm a comment! *) 
+	 
 create a function
+	let f x = x + 1 ;;
 
-print results
-
+print results  
+	printf  
+	print_string  
+	print_int  
+	
+	
 casting between data types
 	http://caml.inria.fr/pub/docs/manual-ocaml/libref/Pervasives.html
 
