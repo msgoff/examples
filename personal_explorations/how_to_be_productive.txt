@@ -4,6 +4,16 @@ Good documentation -> Intermediate, Advanced
 	
 Repos focused around OCaml  
 	https://github.com/ocamllabs  
+	https://github.com/ocaml-community  
+	https://github.com/ocaml/  
+	https://github.com/avsm  
+	https://github.com/mirage  
+	https://github.com/BuckleScript  
+	https://github.com/mirleft  
+	https://github.com/ocsigen  
+	https://github.com/johnwhitington  
+	https://github.com/revery-ui  
+	https://github.com/brainpower-org/  
 	
 how to read and print a file
 	https://stackoverflow.com/a/32738922
