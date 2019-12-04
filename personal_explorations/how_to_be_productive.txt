@@ -1,7 +1,10 @@
 
 Good documentation -> Intermediate, Advanced
 	https://caml.inria.fr/pub/docs/manual-ocaml/
-
+	
+Repos focused around OCaml  
+	https://github.com/ocamllabs  
+	
 how to read and print a file
 	https://stackoverflow.com/a/32738922
 
