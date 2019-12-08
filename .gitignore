@@ -1,3 +1,4 @@
+INSTALLERS/venv
 *.out
 *.out.full
 *.a
