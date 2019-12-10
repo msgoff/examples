@@ -2,6 +2,7 @@ sudo apt install ocaml
 sudo apt install opam
 sudo apt-get install mercurial
 sudo apt-get install darcs
+sudo apt install camlp4-extra
 opam install user-setup
 opam install merlin
 opam install core

@@ -1,9 +1,5 @@
-sudo apt install ocaml
-sudo apt install opam
 sudo apt-get install mercurial
 sudo apt-get install darcs
-
-opam init
 opam install num
 opam install utop
 opam install camlp5

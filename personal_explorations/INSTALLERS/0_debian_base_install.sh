@@ -17,4 +17,6 @@ sudo apt install make
 sudo apt install gcc 
 sudo apt install pkg-config
 sudo apt install bison
+sudo apt install python3-dev
+sudo apt install python3-pip
 sudo apt install virtualenv
