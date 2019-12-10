@@ -2,9 +2,10 @@
 open Core
 open Printf
   
+let l = String.split_on_char ':' s ;;
 
 let handle_line line =
-  printf "%s \n" line
+        printf "%s \n" line ;; 
 
 let () =
   let file_to_read = Sys.argv.(1) in
