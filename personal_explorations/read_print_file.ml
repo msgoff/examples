@@ -1,11 +1,23 @@
 open Core
-
+open Printf
 let string_split s = String.split_on_chars s ~on:[':';'\n';'='];;
 
+let parse line =
+  let p = Re2.create_exn "\\s+.*" in
+  Re2.find_all p line;;
+
 let string_opt s =
-  match s with
-  Some s -> s
-  | None -> "";;
+    match s with
+    Some s -> s
+    | None -> "";;
+
+let core_kernel_msg l =
+  match l with
+    Core_kernel__.Result.Ok l -> string_opt (List.hd l)
+    | _ -> "ERROR";;
+
+let test_string = core_kernel_msg (parse " 123");;
+printf "%s" test_string;;
 
 let tail s =
   List.slice s 1 (List.length s);;
