@@ -13,6 +13,18 @@ let tail s =
 let substring_test s l =
   List.map ~f:(fun x ->String.is_substring s x) l;;
 
+let is_key key =
+    match key with
+      | "k1" -> true
+      | "k2" -> true
+      | _ -> false ;;
+
+let string_rewrite key =
+  match key with
+    "t1" -> "Bob"
+  | "t2" -> "Jane"
+  | _ -> "Unknown" ;;
+
 let clean_key key =
   String.tr ~target:'-' ~replacement:'_' (
     String.tr ~target:' ' ~replacement:'_' (
@@ -24,12 +36,13 @@ let clean_value l =
   String.strip (
     String.concat ~sep:"," (tail l)) ;;
 
-
 let handle_line line =
   if String.is_substring ~substring:":" line
     then
-        let l = string_split line in
-        let key  = List.hd l in
+      let l = string_split line in
+      let key  = List.hd l in
+      if is_key (String.strip (string_opt key))
+      then
         let cleaned_key = clean_key key in
         let cleaned_value = clean_value l in
         printf "%s:%s\n" cleaned_key cleaned_value;;
