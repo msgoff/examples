@@ -1,15 +1,4 @@
-[1;2;3];;
-#part 1
-1 :: (2 :: (3 :: [])) ;;
-1 :: 2 :: 3 :: [] ;;
-#part 2
-let empty = [];;
-3 :: empty;;
-"three" :: empty;;
-#part 3
-let l = 1 :: 2 :: 3 :: [];;
-let m = 0 :: l;;
-l;;
+
 #part 4
 let rec sum l =
     match l with
